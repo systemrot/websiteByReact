@@ -1,0 +1,13 @@
+.Animation1{
+	position: relative;
+	display: flex;
+}
+.description{
+	width: 900px;
+	height: 700px;
+	background: #dcdde1;
+	margin-left: auto;
+	overflow: scroll;
+	box-shadow: 3px 3px 3px 3px black;
+}
+
