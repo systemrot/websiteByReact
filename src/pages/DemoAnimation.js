@@ -12,11 +12,13 @@ class DemoAnimation extends React.Component {
   render(){
     return (
       <div className="DemoAnimation">
-        <Header></Header>
-        <Switch>
-          <Route path="/animation1" component={Animation1} />
-          <Route path="/animation2" component={Animation2} />
-        </Switch>
+        <div className="wrapper-footer">
+          <Header></Header>
+          <Switch>
+            <Route path="/animation1" component={Animation1} />
+            <Route path="/animation2" component={Animation2} />
+          </Switch>
+        </div>
         <Footer></Footer>
       </div>
     );

@@ -9,8 +9,10 @@ class Animations extends React.Component {
   render(){
     return (
       <div className="Animations">
-        <Header></Header>
-        <Content></Content>
+      	<div className="wrapper-footer">
+			<Header></Header>
+			<Content></Content>
+      	</div>
         <Footer></Footer>
       </div>
     );

@@ -1,10 +1,13 @@
 import React from 'react';
+import Form from '../../form/Form';
 
 // import {Link} from 'react-router-dom';
 
-export default class Nav extends React.Component {
-	render(){
-		return (
+import {ChatBotProvider} from '../../../context/chatBotContext';
+
+const Nav = () => {
+	return (
+		<div>
 			<nav className='navbar-expand-lg navbar-light bg-light'>
 				<div className='navbar navbar-dark bg-dark'>
 					<ul className='navbar-nav mr-auto'>
@@ -23,9 +26,15 @@ export default class Nav extends React.Component {
 					</ul>
 				</div>
 			</nav>
-			)
-	}
+			<ChatBotProvider>
+				<Form></Form>
+			</ChatBotProvider>
+		</div>
+		)
+
 }
+
+export default Nav;
 
 // <nav class="navbar navbar-expand-lg navbar-light bg-light">
 //   <a class="navbar-brand" href="#">Navbar</a>

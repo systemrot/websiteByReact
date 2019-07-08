@@ -13,6 +13,7 @@ import * as serviceWorker from './serviceWorker';
 import Home from './pages/Home';
 import Animations from './pages/Animations';
 // import Animation1 from './pages/webglAnimations/Animation1';
+// import {chatBotProvider} from './context/chatBotContext';
 import DemoAnimation from './pages/DemoAnimation';
 import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 
